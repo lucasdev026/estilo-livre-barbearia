@@ -1,0 +1,51 @@
+// 1°customizar as variaveis
+
+$dark: hsl(240, 1%, 32%);
+$borda: 30px;
+$italic: italic;
+$fonte: 45px;
+$font-2: calc($fonte / 2.5);
+$secondary: #383636;
+$white: #ffffff;
+$relativo: relative;
+
+// 2° principal do alinhamento//
+img {
+  border-radius: $borda;
+}
+.text--des {
+  font-size: $fonte;
+}
+.text--qw {
+  font-style: $italic;
+  font-size: $font-2;
+  color: $white;
+}
+article {
+  background-color: $dark;
+  color: $white;
+}
+.card-title{
+  font-size: $font-2;
+
+}
+.secao--caurosel{
+box-shadow: 10px 5px 5px rgb(107, 107, 107);
+margin-left: $borda;
+margin-right: $borda;
+border-radius: $borda;
+}
+form{
+  font-size: $font-2;
+}
+.form-label{
+  font-size: $font-2;
+}
+.form-title{
+  font-size: $borda;
+}
+
+
+// 3° principal do bootstrap//
+
+@import "../node_modules/bootstrap/scss/bootstrap";
