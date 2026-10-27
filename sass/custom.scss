@@ -6,8 +6,10 @@ $italic: italic;
 $fonte: 45px;
 $font-2: calc($fonte / 2.5);
 $secondary: #383636;
-$white: #ffffff;
+$white: #e2e2e2;
 $relativo: relative;
+$borda-io:$borda * 2;
+$light:$white;
 
 // 2° principal do alinhamento//
 img {
@@ -32,9 +34,12 @@ article {
 .secao--caurosel{
 box-shadow: 10px 5px 5px rgb(107, 107, 107);
 margin-left: $borda;
-margin-right: $borda;
-border-radius: $borda;
+margin-right: $font-2;
+  img{
+ border-radius: $borda-io;
 }
+}
+
 form{
   font-size: $font-2;
 }
@@ -43,6 +48,9 @@ form{
 }
 .form-title{
   font-size: $borda;
+}
+.secao--caurosel{
+  background-color:$light;
 }
 
 
