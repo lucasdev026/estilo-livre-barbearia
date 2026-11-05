@@ -1,0 +1,12 @@
+@use "custom";
+
+$dark: hsl(240, 1%, 32%);
+$borda: 30px;
+$italic: italic;
+$fonte: 45px;
+$font-2: calc($fonte / 2.5);
+$secondary: #383636;
+$white: #e2e2e2;
+$relativo: relative;
+$borda-io:$borda * 2;
+$light:$white;

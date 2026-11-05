@@ -1,59 +1,27 @@
-// 1°customizar as variaveis
-
-$dark: hsl(240, 1%, 32%);
-$borda: 30px;
-$italic: italic;
-$fonte: 45px;
-$font-2: calc($fonte / 2.5);
-$secondary: #383636;
-$white: #e2e2e2;
-$relativo: relative;
-$borda-io:$borda * 2;
-$light:$white;
-
-// 2° principal do alinhamento//
-img {
-  border-radius: $borda;
-}
-.text--des {
-  font-size: $fonte;
-}
-.text--qw {
-  font-style: $italic;
-  font-size: $font-2;
-  color: $white;
-}
-article {
-  background-color: $dark;
-  color: $white;
-}
-.card-title{
-  font-size: $font-2;
-
-}
-.secao--caurosel{
-box-shadow: 10px 5px 5px rgb(107, 107, 107);
-margin-left: $borda;
-margin-right: $font-2;
-  img{
- border-radius: $borda-io;
-}
-}
-
-form{
-  font-size: $font-2;
-}
-.form-label{
-  font-size: $font-2;
-}
-.form-title{
-  font-size: $borda;
-}
-.secao--caurosel{
-  background-color:$light;
-}
-
-
-// 3° principal do bootstrap//
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+body{
+  background-color: $dark;
+}
+.text__des{  font-size: 40px;
+}
+.text--qw{
+  font-size: 20px;
+}
+
+.form-title{
+  font-size: 30px;
+}
+.bi-bank {
+    color: #ffc107;
+    width: 15%;
+}
+.secao--caurosel{
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+// 2° principal do alinhamento//
+
